@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🕌 مواقيت الصلاة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🕌 مواقيت الصلاة</h1>
+
+    <div class="controls">
+      <input type="text" id="cityInput" placeholder="اكتب مدينتك هنا">
+      <button onclick="changeCity()">تغيير</button>
+      <button onclick="toggleDarkMode()">🌙/☀</button>
+    </div>
+
+    <div id="date" class="date-box">📅 جاري تحميل التاريخ...</div>
+    <div id="times" class="times-box">⏳ جاري تحميل المواقيت...</div>
+    <div id="countdown" class="countdown">⏳ جاري حساب العد التنازلي...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+  font-family: "Tahoma", Arial, sans-serif;
+  background: url("https://i.ibb.co/7z0Zyfr/mosque-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.container {
+  margin-top: 60px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  display: inline-block;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #006400;
+}
+
+.controls {
+  margin-bottom: 15px;
+}
+
+input, button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+  background: #006400;
+  color: white;
+}
+
+.date-box {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+.times-box {
+  margin-top: 10px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: right;
+  line-height: 1.8;
+}
+
+.countdown {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #b22222;
+}
+
+.dark-mode {
+  background: #121212 url("https://i.ibb.co/7z0Zyfr/mosque-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #f1f1f1;
+}
+
+.dark-mode .container {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.dark-mode button {
+  background: #444;
+}
